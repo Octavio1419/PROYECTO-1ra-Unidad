@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="login.js"></script>
+</head>
+
+<body>
+    <section class="form-main">
+        <div class="form-content">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div class="circle-3"></div>
+            <div class="box">
+                <img class="avatar" src="logoo.jpg" alt="logolent">
+                <h3>Bienvenido</h3>
+                <form action="">
+                    <div class="input-box">
+                        <label>Usuario:</label>
+                        <input type="text" name="usuar" id="usuar" placeholder="Ingrese Usuario" class="input-control">
+                    </div>
+                    <div class="input-box">
+                        <label>Contraseña:</label>
+                        <input type="password" name="password" id="password" placeholder="Password" class="input-control">
+                        <div class="input-link">
+                            <a href="recucontra.html" class="gradient-text">Has olvidado tu contraseña</a>
+                        </div>
+                    </div>
+                    <input type="button" value="Iniciar Sesion" id="sumbit" onclick="validate()">
+                </form>
+                <p>¿No tienes una cuenta?<a href="create.html" class="gradient-text">Crear una cuenta</a></p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

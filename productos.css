@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&display=swap');
+body {
+    margin: 1px;
+    background-color: aliceblue;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+button {
+    font-size: 16px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
+.page-nav {
+    background-color: yellow;
+    border: 1px solid black;
+    position: relative;
+}
+
+.page-nav h1 {
+    margin: 15px;
+}
+
+.button-checkout {
+    font-size: 16px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px 20px;
+    background-color: white;
+    color: #000;
+    border: 2px solid rgb(7, 7, 7);
+    transition-duration: 0.45s;
+    left: 15px;
+    bottom: 10px;
+}
+
+.button-checkout:hover {
+    background-color: rgb(20, 58, 45);
+    color: white;
+}
+
+.page-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 1px solid red;
+}
+
+.productos-containe {
+    margin: 15px;
+    padding: 2px 16px;
+}
+
+img {
+    max-width: 40%;
+    max-height: 40%;
+}
+
+.productos-container:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.productos-container img {
+    width: 300px;
+}
+
+.productos-container h1 {
+    margin-bottom: 0px;
+    margin-left: 20px;
+}
+
+.button-add {
+    font-size: 16px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px 20px;
+    background-color: white;
+    color: #000;
+    border: 2px solid rgb(7, 7, 7);
+    transition-duration: 0.45s;
+    left: 15px;
+    bottom: 10px;
+}
+
+.button-add:hover {
+    background-color: rgb(20, 58, 45);
+    color: white;
+}
